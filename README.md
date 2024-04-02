@@ -1,6 +1,7 @@
 
 #Unity Move FPS
 
+{
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ using UnityEngine.Rendering;
 
 public class PlayerMove : MonoBehaviour
 {
+
     public float MoveSpeed;
 
     private float horizontal;
@@ -43,4 +45,5 @@ public class PlayerMove : MonoBehaviour
         PlayerController.Move(Player_Move * Time.deltaTime);
 
     }
+}
 }
